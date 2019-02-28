@@ -55,6 +55,9 @@ app.use(passportsession());
 
 // ROUTES go here using api
 
+const charity = require("./routes/charity-router.js");
+app.use("/api", charity);
+
 const auth = require("./routes/auth-router.js");
 app.use("/api", auth);
 
