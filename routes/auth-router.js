@@ -1,7 +1,7 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
 const User = require("../models/user-model.js");
-// const { sendSignupMail } = require("../config/nodemailer-setup");
+const { sendSignupMail } = require("../config/nodemailer-setup");
 
 const User = require("../models/user-model.js");
 
@@ -19,10 +19,11 @@ router.post("/process-signup", (req, res, next) => {
 
   User.create({ firstName, lastName, email, encryptedPassword })
     .then(userDoc => {
-      // sendSignupMail(userDoc){}
-      req.logIn(userDoc, () => {
-        userDoc.encryptedPassword = undefined;
-        res.json(userDoc);
+      sendSignupMail(userDoc).then(() => {
+        req.logIn(userDoc, () => {
+          userDoc.encryptedPassword = undefined;
+          res.json(userDoc);
+        });
       });
     })
     .catch(err => next(err));
