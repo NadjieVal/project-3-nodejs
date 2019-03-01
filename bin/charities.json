@@ -1,17 +1,92 @@
 [
   {
-    "name": "",
-    "": "",
-    "": ""
+    "charityLogo": "https://www.logolynx.com/images/logolynx/55/55b8426159f3e2ce033420dcd49be7a5.png",
+    "charityName": "Greenpeace",
+    "missionName": "Volunteer in the office",
+    "missionDescription": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems. Voluntary opportunities range from helping with administrative tasks, mail outs, data entry, data analysis, translations, design and editing, research projects, assisting with events coordination.",
+    "charityUrl": "https://www.greenpeace.fr/",
+    "date": "14/03/2019",
+    "time": "14:00 - 16:00",
+    "location": "13 Rue d'Enghien, 75010 Paris",
+    "category": "Environment"
+  },
+
+  {
+    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Amnesty_International_2008_logo.svg/1280px-Amnesty_International_2008_logo.svg.png",
+    "charityName": "Amnesty International",
+    "missionName": "Human Rights Defenders",
+    "missionDescription": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office. This position will support the Human Rights Defenders team in a wide range of research, campaigns, communications and administrative activities related to both strategic projects and reactive work in the region. The opportunity to collaborate in one of the world’s leading human rights organisations can provide valuable professional experience and the chance to achieve meaningful impact on the lives of people around the world. The volunteer task list may include the following: Information collection: Collect diverse information from a wide range of sources. This could entail conducting research online or reaching out to embassies, authorities or NGOs in different countries. Press monitoring: We monitor human rights issues and developments on a daily basis in both international and local media. Selected articles are then filed electronically into databases and other platforms with important news items forwarded to team members by email.Communications and correspondence: The volunteer will be asked to send or answer correspondence by letter or email under supervision of the team. In some cases, making phone calls for arranging meetings with NGOs or government officials will be required, as well as making travel arrangements for missions.",
+    "charityUrl": "https://www.amnesty.org/en/",
+    "date": "20/03/2019",
+    "time": "14:00 - 18:00",
+    "location": "72-76 Boulevard de la Villette, 75019 Paris",
+    "category": "Human Rights"
+  },
+
+  {
+    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/ad/Restos_du_coeur_Logo.svg/1024px-Restos_du_coeur_Logo.svg.png",
+    "charityName": "Les Restaurant du Coeur",
+    "missionName": "Food Distribution Volunteer",
+    "missionDescription": "Join our action team for the distribution of hot meals during breakfast or lunch time in Paris. The volunteer will be responsible for sorting and packing food (both dry and fresh) according to the best-before dates, food type, and packaging guidelines. Volunteers are responsible for sorting and packing food in accordance with proper safe food handling procedures.",
+    "charityUrl": "https://collecte.restosducoeur.org/",
+    "date": "20/03/2019",
+    "time": "10:00 - 13:00",
+    "location": "Quai de Seine, 75020 Paris",
+    "category": "Human Rights"
   },
   {
-    "name": "",
-    "": "",
-    "": ""
+    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/79/WWF_logo_2000.svg/220px-WWF_logo_2000.svg.png",
+    "charityName": "WWF",
+    "missionName": "Teacher Assistant Volunteer",
+    "missionDescription": "Our work with schools inspires and supports young people to build their knowledge and understanding, develop their skills, and explore their values so they're motivated and equipped to enjoy and care for our beautiful planet. We have a clear mission to care for the world around us. Through our work with schools, youth groups and young people, we’re aiming to inspire a new generation of sustainability champions and help young people make positive choices for a brighter future for our planet.",
+    "charityUrl": "https://www.wwf.fr/",
+    "date": "16/03/2019",
+    "time": "09:00 - 11:00",
+    "location": "Simon De Beauvoir School, 75019 Paris",
+    "category": "Environment"
   },
   {
-    "name": "",
-    "": "",
-    "": ""
+    "charityLogo": "http://www.agircontrelesdisparitions.org/wp-content/uploads/2016/05/LOGO_FE_BLANC_SUR_CARRE_BLEU_01.jpg",
+    "charityName": "Fondation pour l'Enfance",
+    "missionName": "Fundraising Volunteer",
+    "missionDescription": "Help raise urgently needed funds for the fight against child abuse and share the message about the lifesaving work the Fondation pour l'enfance provides. Fundraising isn’t just about collecting money; it also entails effectively communicating why the donations are needed. If you have good communication skills, or want to improve in that area, then volunteering for a position that involves fundraising might be a good fit for you. We provide communication tips and tools to make raising money easy and fun.",
+    "charityUrl": "https://www.fondation-enfance.org/",
+    "date": "18/03/2019",
+    "time": "12:00 - 14:00",
+    "location": "Place Saint Michel, 75006 Paris",
+    "category": "Children"
+  },
+  {
+    "charityLogo": "https://orig00.deviantart.net/c004/f/2018/177/5/b/untitled_drawing_by_peachgirl00-dcfjwy4.png",
+    "charityName": "BAAM",
+    "missionName": "Teacher Assistant Volunteer",
+    "missionDescription": "We're currently looking for a motivated and passionate french speaking volunteer to assist our language teacher during the workshops od french language and civilization for refugees in our Parisian offices.",
+    "charityUrl": "hhttps://baamasso.org/fr/",
+    "date": "01/04/2019",
+    "time": "16:00 - 18:00",
+    "location": "49 ter avenue de Flandre – 75019 Paris",
+    "category": "Refugees"
+  },
+  {
+    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Amnesty_International_2008_logo.svg/1280px-Amnesty_International_2008_logo.svg.png",
+    "charityName": "Amnesty International",
+    "missionName": "Human Rights Defenders",
+    "missionDescription": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office. This position will support the Human Rights Defenders team in a wide range of research, campaigns, communications and administrative activities related to both strategic projects and reactive work in the region. The opportunity to collaborate in one of the world’s leading human rights organisations can provide valuable professional experience and the chance to achieve meaningful impact on the lives of people around the world. The volunteer task list may include the following: Information collection: Collect diverse information from a wide range of sources. This could entail conducting research online or reaching out to embassies, authorities or NGOs in different countries. Press monitoring: We monitor human rights issues and developments on a daily basis in both international and local media. Selected articles are then filed electronically into databases and other platforms with important news items forwarded to team members by email.Communications and correspondence: The volunteer will be asked to send or answer correspondence by letter or email under supervision of the team. In some cases, making phone calls for arranging meetings with NGOs or government officials will be required, as well as making travel arrangements for missions.",
+    "charityUrl": "https://www.amnesty.org/en/",
+    "date": "20/04/2019",
+    "time": "14:00 - 18:00",
+    "location": "72-76 Boulevard de la Villette, 75019 Paris",
+    "category": "Human Rights"
+  },
+  {
+    "charityLogo": "https://www.logolynx.com/images/logolynx/55/55b8426159f3e2ce033420dcd49be7a5.png",
+    "charityName": "Greenpeace",
+    "missionName": "Volunteer in the office",
+    "missionDescription": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems. Voluntary opportunities range from helping with administrative tasks, mail outs, data entry, data analysis, translations, design and editing, research projects, assisting with events coordination.",
+    "charityUrl": "https://www.greenpeace.fr/",
+    "date": "07/04/2019",
+    "time": "14:00 - 16:00",
+    "location": "13 Rue d'Enghien, 75010 Paris",
+    "category": "Environment"
   }
 ]
