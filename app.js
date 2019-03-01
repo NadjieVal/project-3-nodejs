@@ -12,7 +12,7 @@ const MongoStore = require("connect-mongo")(session);
 const passport = require("passport");
 const nodemailer = require("nodemailer");
 
-require("./congig/passport-setup.js");
+require("./config/passport-setup.js");
 
 mongoose
   .connect("mongodb://localhost/project-3-nodejs", { useNewUrlParser: true })
@@ -51,7 +51,7 @@ app.use(
 );
 
 app.use(passport.initialize());
-app.use(passportsession());
+app.use(passport.session());
 
 // ROUTES go here using api
 

@@ -1,6 +1,5 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
-const User = require("../models/user-model.js");
 const { sendSignupMail } = require("../config/nodemailer-setup");
 
 const User = require("../models/user-model.js");
