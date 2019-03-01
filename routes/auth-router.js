@@ -18,15 +18,15 @@ router.post("/process-signup", (req, res, next) => {
 
   User.create({ firstName, lastName, email, encryptedPassword })
     .then(userDoc => {
-      sendSignupMail(userDoc).then(() => {
-        req.logIn(userDoc, () => {
-          userDoc.encryptedPassword = undefined;
-          res.json(userDoc);
-        });
+      // sendSignupMail(userDoc).then(() => {
+      req.logIn(userDoc, () => {
+        userDoc.encryptedPassword === undefined;
+        res.json(userDoc);
       });
     })
     .catch(err => next(err));
 });
+// });
 
 router.post("/process-login", (req, res, next) => {
   const { email, originalPassword } = req.body;
