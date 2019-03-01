@@ -51,7 +51,7 @@ app.use(
 );
 
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passportsession());
 
 // ROUTES go here using api
 
@@ -62,7 +62,6 @@ const auth = require("./routes/auth-router.js");
 app.use("/api", auth);
 
 const category = require("./routes/category-router.js");
-
 app.use("/api", category);
 
 module.exports = app;
