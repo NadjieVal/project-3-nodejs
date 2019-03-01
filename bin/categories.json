@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Netflix",
+    "icon": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/xs/iphone-xs-max-gold-select-2018?wid=470&hei=556&fmt=png-alpha&.v=1541713822178"
+  },
+  {
+    "name": "YouTube",
+    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+  },
+  {
+    "name": "Gaming",
+    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+  },
+  {
+    "name": "Social Media",
+    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+  },
+  {
+    "name": "Chatting",
+    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+  },
+  {
+    "name": "Online Shopping",
+    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+  }
+]
