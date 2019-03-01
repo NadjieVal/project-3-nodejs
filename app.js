@@ -51,7 +51,7 @@ app.use(
 );
 
 app.use(passport.initialize());
-app.use(passportsession());
+app.use(passport.session());
 
 // ROUTES go here using api
 
