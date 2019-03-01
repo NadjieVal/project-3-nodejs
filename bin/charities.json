@@ -77,5 +77,16 @@
     "time": "14:00 - 18:00",
     "location": "72-76 Boulevard de la Villette, 75019 Paris",
     "category": "Human Rights"
+  },
+  {
+    "charityLogo": "https://www.logolynx.com/images/logolynx/55/55b8426159f3e2ce033420dcd49be7a5.png",
+    "charityName": "Greenpeace",
+    "missionName": "Volunteer in the office",
+    "missionDescription": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems. Voluntary opportunities range from helping with administrative tasks, mail outs, data entry, data analysis, translations, design and editing, research projects, assisting with events coordination.",
+    "charityUrl": "https://www.greenpeace.fr/",
+    "date": "07/04/2019",
+    "time": "14:00 - 16:00",
+    "location": "13 Rue d'Enghien, 75010 Paris",
+    "category": "Environment"
   }
 ]
