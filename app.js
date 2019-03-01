@@ -61,4 +61,8 @@ app.use("/api", charity);
 const auth = require("./routes/auth-router.js");
 app.use("/api", auth);
 
+const category = require("./routes/category-router.js");
+
+app.use("/api", category);
+
 module.exports = app;
