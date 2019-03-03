@@ -21,32 +21,32 @@ router.get("/charities/:charityId", (req, res, next) => {
 
 router.post("/charities", (req, res, next) => {
   const {
-    missionName,
-    missionDescription,
-    charityName,
     charityLogo,
+    charityName,
+    missionName,
+    missionIntro,
+    missionDescription,
     charityUrl,
     charityEmail,
     date,
     time,
     duration,
     location,
-    category,
-    charityDescription
+    category
   } = req.body;
   Charity.create({
-    missionName,
-    missionDescription,
-    charityName,
     charityLogo,
+    charityName,
+    missionName,
+    missionIntro,
+    missionDescription,
     charityUrl,
     charityEmail,
     date,
     time,
     duration,
     location,
-    category,
-    charityDescription
+    category
   })
     .then(charityDoc => res.json(charityDoc))
     .catch(err => next(err));

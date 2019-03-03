@@ -7,21 +7,22 @@ const charitySchema = new Schema(
     charityLogo: { type: String, required: true, match: /^https?:\/\// },
     charityName: { type: String, required: true, minlength: 2 },
     missionName: { type: String, required: true, minlength: 2 },
+    missionIntro: { type: String, required: true, minlength: 5 },
     missionDescription: { type: String, required: true, minlength: 10 },
     charityUrl: { type: String, required: true, match: /^https?:\/\// },
-    date: { type: Date, required: true },
-    time: { type: String, required: true },
+    missionDate: { type: String, required: true },
+    missionTime: { type: String, required: true },
     location: { type: String, required: true },
     category: {
       type: String,
       enum: [
-        "refugees",
-        "women",
-        "children",
-        "medicine",
-        "human-rights",
-        "animals",
-        "environment"
+        "Refugees",
+        "Women",
+        "Children",
+        "Medicine",
+        "Human Rights",
+        "Animals",
+        "Environment"
       ]
     }
   },
