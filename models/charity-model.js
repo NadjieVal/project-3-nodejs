@@ -10,7 +10,7 @@ const charitySchema = new Schema(
     missionIntro: { type: String, required: true, minlength: 5 },
     missionDescription: { type: String, required: true, minlength: 10 },
     charityUrl: { type: String, required: true, match: /^https?:\/\// },
-    missionDate: { type: String, required: true },
+    missionDate: { type: Date, required: true },
     missionTime: { type: String, required: true },
     location: { type: String, required: true },
     category: {

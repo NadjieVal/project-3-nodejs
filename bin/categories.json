@@ -5,7 +5,7 @@
   },
   {
     "name": "YouTube",
-    "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
+    "icon": "/images/youtube_icon.png"
   },
   {
     "name": "Gaming",
@@ -16,7 +16,7 @@
     "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
   },
   {
-    "name": "Chatting",
+    "name": "Music",
     "icon": "https://bestengine.humanoid.fr/uploads/products/huawei-p20.png"
   },
   {
