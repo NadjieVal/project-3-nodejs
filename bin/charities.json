@@ -1,6 +1,6 @@
 [
   {
-    "charityLogo": "https://www.logolynx.com/images/logolynx/55/55b8426159f3e2ce033420dcd49be7a5.png",
+    "charityLogo": "/images/Greenpeace_logo.svg.png",
     "charityName": "Greenpeace",
     "missionName": "Volunteer in the office",
     "missionIntro": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems...",
@@ -15,7 +15,7 @@
   },
 
   {
-    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Amnesty_International_2008_logo.svg/1280px-Amnesty_International_2008_logo.svg.png",
+    "charityLogo": "/images/Amnesty_International_logo.png",
     "charityName": "Amnesty International",
     "missionName": "Human Rights Defenders",
     "missionIntro": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office...",
@@ -30,7 +30,7 @@
   },
 
   {
-    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/ad/Restos_du_coeur_Logo.svg/1024px-Restos_du_coeur_Logo.svg.png",
+    "charityLogo": "/images/Restos_du_coeur_Logo.svg.png",
     "charityName": "Les Restaurant du Coeur",
     "missionName": "Food Distribution Volunteer",
     "missionIntro": "Join our action team for the distribution of hot meals during breakfast or lunch missionTime in Paris. The volunteer will be responsible for...",
@@ -44,9 +44,9 @@
     "category": "Human Rights"
   },
   {
-    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/7/79/WWF_logo_2000.svg/220px-WWF_logo_2000.svg.png",
+    "charityLogo": "/images/WWF_logo.png",
     "charityName": "WWF",
-    "missionName": "Teacher Assistant Volunteer",
+    "missionName": "Teacher Assistant",
     "missionIntro": "Our work with schools inspires and supports young people to build their knowledge and understanding, develop their skills, and explore...",
     "missionDescription": "Our work with schools inspires and supports young people to build their knowledge and understanding, develop their skills, and explore their values so they're motivated and equipped to enjoy and care for our beautiful planet. We have a clear mission to care for the world around us. Through our work with schools, youth groups and young people, we’re aiming to inspire a new generation of sustainability champions and help young people make positive choices for a brighter future for our planet.",
     "charityUrl": "https://www.wwf.fr/",
@@ -58,7 +58,7 @@
     "category": "Environment"
   },
   {
-    "charityLogo": "https://www.fondation-enfance.org/wp-content/uploads/2019/02/pour-lenfance.png",
+    "charityLogo": "/images/FONDATION-ENFANCE_logo.png",
     "charityName": "Fondation pour l'Enfance",
     "missionName": "Fundraising Volunteer",
     "missionIntro": "Help raise urgently needed funds for the fight against child abuse and share the message about the lifesaving work the Fondation pour l'enfance provides...",
@@ -72,7 +72,7 @@
     "category": "Children"
   },
   {
-    "charityLogo": "https://orig00.deviantart.net/c004/f/2018/177/5/b/untitled_drawing_by_peachgirl00-dcfjwy4.png",
+    "charityLogo": "/images/BAAM_logo.jpg",
     "charityName": "BAAM",
     "missionName": "Teacher Assistant Volunteer",
     "missionIntro": "We're currently looking for a motivated and passionate french speaking volunteer to assist our language teacher during...",
@@ -86,7 +86,7 @@
     "category": "Refugees"
   },
   {
-    "charityLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/b/b7/Amnesty_International_2008_logo.svg/1280px-Amnesty_International_2008_logo.svg.png",
+    "charityLogo": "/images/Amnesty_International_logo.png",
     "charityName": "Amnesty International",
     "missionName": "Human Rights Defenders",
     "missionIntro": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office...",
@@ -100,7 +100,7 @@
     "category": "Human Rights"
   },
   {
-    "charityLogo": "https://www.logolynx.com/images/logolynx/55/55b8426159f3e2ce033420dcd49be7a5.png",
+    "charityLogo": "/images/Greenpeace_logo.svg.png",
     "charityName": "Greenpeace",
     "missionName": "Volunteer in the office",
     "missionIntro": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems...",

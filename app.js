@@ -64,4 +64,7 @@ app.use("/api", auth);
 const category = require("./routes/category-router.js");
 app.use("/api", category);
 
+const time = require("./routes/time-router.js");
+app.use("/api", time);
+
 module.exports = app;
