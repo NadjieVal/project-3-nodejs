@@ -10,8 +10,10 @@ const charitySchema = new Schema(
     missionIntro: { type: String, required: true, minlength: 5 },
     missionDescription: { type: String, required: true, minlength: 10 },
     charityUrl: { type: String, required: true, match: /^https?:\/\// },
+    email: { type: String, required: true, unique: true, match: /^.+@.+\..+$/ },
     missionDate: { type: Date, required: true },
     missionTime: { type: String, required: true },
+    duration: { type: Number, required: true },
     location: { type: String, required: true },
     category: {
       type: String,
