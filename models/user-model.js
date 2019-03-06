@@ -8,6 +8,7 @@ const userSchema = new Schema(
     lastName: { type: String, required: true, minlength: 2 },
     email: { type: String, required: true, unique: true, match: /^.+@.+\..+$/ },
     encryptedPassword: { type: String, required: true },
+    time: { type: Number, default: 0 },
     role: {
       type: String,
       required: true,

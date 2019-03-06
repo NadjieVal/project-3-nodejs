@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const CategorySchema = new Schema(
   {
     name: { type: String, required: true, minlength: 2 },
-    icon: { type: String, required: true }
+    icon: { type: String, default: "/images/default_icon.png" }
   },
   {
     timestamps: true
