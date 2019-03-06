@@ -19,10 +19,9 @@ router.get("/categories/:categoryId", (req, res, next) => {
 });
 
 router.post("/categories", (req, res, next) => {
-  const { name, icon } = req.body;
+  const { category } = req.body;
   Category.create({
-    name,
-    icon
+    name: category
   })
     .then(categoryDoc => res.json(categoryDoc))
     .catch(err => next(err));
