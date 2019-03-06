@@ -12,8 +12,8 @@ router.get("/dashboard", (req, res, next) => {
     createdAt: {
       $gte: moment()
         .subtract(7, "days")
-        .calendar(),
-      $lte: moment().calendar()
+        .toDate(),
+      $lte: moment().toDate()
     }
   })
     .populate("category")
