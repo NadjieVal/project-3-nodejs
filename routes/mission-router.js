@@ -7,9 +7,15 @@ const moment = require("moment");
 
 // we get the category linked to time in the DB
 router.post("/your-missions", (req, res, next) => {
-  const { charityLogo, charityName, missionName } = req.body;
+  const { charityLogo, charityName, missionName, duration } = req.body;
 
-  Mission.create({ charityLogo, charityName, missionName, user: req.user._id })
+  Mission.create({
+    charityLogo,
+    charityName,
+    missionName,
+    duration,
+    user: req.user._id
+  })
     .then(missionDoc => res.json(missionDoc))
     .catch(err => next(err));
 });
