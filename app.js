@@ -67,4 +67,7 @@ app.use("/api", category);
 const time = require("./routes/time-router.js");
 app.use("/api", time);
 
+const mission = require("./routes/mission-router.js");
+app.use("/api", mission);
+
 module.exports = app;
