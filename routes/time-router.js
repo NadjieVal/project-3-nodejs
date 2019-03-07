@@ -17,8 +17,7 @@ router.get("/dashboard", (req, res, next) => {
       $lte: moment().toDate()
     }
   })
-    .populate({ path: "category", select: "name" })
-    .populate({ path: "category", select: "icon" })
+    .populate("category")
     .sort({ createdAt: -1 })
     .then(categoryResult => res.json(categoryResult))
     .catch(err => next(err));
