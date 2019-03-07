@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const Time = require("../models/time-model.js");
 
 mongoose
-  .connect("mongodb://localhost/project-3-nodejs", {
+  .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true
   })
   .then(x => {
