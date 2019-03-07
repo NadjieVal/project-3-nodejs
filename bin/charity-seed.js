@@ -5,7 +5,7 @@ const Charity = require("../models/charity-model.js");
 const allCharity = require("./charities.json");
 
 mongoose
-  .connect("mongodb://localhost/project-3-nodejs", {
+  .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true
   })
   .then(x => {

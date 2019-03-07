@@ -5,7 +5,7 @@ const Category = require("../models/category-model.js");
 const allCategories = require("./categories.json");
 
 mongoose
-  .connect("mongodb://localhost/project-3-nodejs", {
+  .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true
   })
   .then(x => {
