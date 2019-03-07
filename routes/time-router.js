@@ -22,4 +22,11 @@ router.get("/dashboard", (req, res, next) => {
     .catch(err => next(err));
 });
 
+router.post("/dashboard", (req, res, next) => {
+  const { inputTime, categoryId } = req.body;
+  Time.create({ time: inputTime, category: categoryId, user: req.user._id })
+    .then(timeDoc => res.json(timeDoc))
+    .catch(err => next(err));
+});
+
 module.exports = router;
