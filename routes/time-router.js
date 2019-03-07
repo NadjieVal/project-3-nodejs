@@ -1,6 +1,7 @@
 const express = require("express");
 
 const Time = require("../models/time-model.js");
+// const Category = require("../models/category-model.js");
 
 const router = express.Router();
 const moment = require("moment");
@@ -16,7 +17,8 @@ router.get("/dashboard", (req, res, next) => {
       $lte: moment().toDate()
     }
   })
-    .populate("category")
+    .populate({ path: "category", select: "name" })
+    .populate({ path: "category", select: "icon" })
     .sort({ createdAt: -1 })
     .then(categoryResult => res.json(categoryResult))
     .catch(err => next(err));
