@@ -31,8 +31,8 @@ const TimeData = [
 ];
 
 Time.insertMany(TimeData)
-  .then(storyResults => {
-    console.log(`Inserted STORIES`);
+  .then(timeResults => {
+    console.log(`Inserted Time saved`);
   })
   .catch(err => {
     console.log("Insert FAILURE!", err);
