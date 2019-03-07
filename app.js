@@ -54,17 +54,19 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // ROUTES go here using api
+const auth = require("./routes/auth-router.js");
+app.use("/api", auth);
 
 const charity = require("./routes/charity-router.js");
 app.use("/api", charity);
-
-const auth = require("./routes/auth-router.js");
-app.use("/api", auth);
 
 const category = require("./routes/category-router.js");
 app.use("/api", category);
 
 const time = require("./routes/time-router.js");
 app.use("/api", time);
+
+const mission = require("./routes/mission-router.js");
+app.use("/api", mission);
 
 module.exports = app;
