@@ -4,12 +4,12 @@ const Schema = mongoose.Schema;
 
 const charitySchema = new Schema(
   {
-    charityLogo: { type: String, required: true, match: /^https?:\/\// },
+    charityLogo: { type: String, required: true },
     charityName: { type: String, required: true, minlength: 2 },
     missionName: { type: String, required: true, minlength: 2 },
     missionIntro: { type: String, required: true, minlength: 5 },
     missionDescription: { type: String, required: true, minlength: 10 },
-    charityUrl: { type: String, required: true, match: /^https?:\/\// },
+    charityUrl: { type: String, required: true },
     email: { type: String, required: true, unique: true, match: /^.+@.+\..+$/ },
     missionDate: { type: Date, required: true },
     missionTime: { type: String, required: true },
