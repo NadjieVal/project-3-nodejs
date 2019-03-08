@@ -1,6 +1,6 @@
 [
   {
-    "charityLogo": "/images/Greenpeace_logo.svg.png",
+    "charityLogo": "/images/greenpeace_logo.png",
     "charityName": "Greenpeace",
     "missionName": "Volunteer in the office",
     "missionIntro": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems...",
@@ -15,7 +15,7 @@
   },
 
   {
-    "charityLogo": "/images/Amnesty_International_logo.png",
+    "charityLogo": "/images/amnesty_international_logo.png",
     "charityName": "Amnesty International",
     "missionName": "Human Rights Defenders",
     "missionIntro": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office...",
@@ -30,7 +30,7 @@
   },
 
   {
-    "charityLogo": "/images/Restos_du_coeur_Logo.svg.png",
+    "charityLogo": "/images/restos_du_coeur_Logo.png",
     "charityName": "Les Restaurant du Coeur",
     "missionName": "Food Distribution Volunteer",
     "missionIntro": "Join our action team for the distribution of hot meals during breakfast or lunch missionTime in Paris. The volunteer will be responsible for...",
@@ -44,7 +44,7 @@
     "category": "Human Rights"
   },
   {
-    "charityLogo": "/images/WWF_logo.png",
+    "charityLogo": "/images/wwf_logo.png",
     "charityName": "WWF",
     "missionName": "Teacher Assistant",
     "missionIntro": "Our work with schools inspires and supports young people to build their knowledge and understanding, develop their skills, and explore...",
@@ -58,7 +58,7 @@
     "category": "Environment"
   },
   {
-    "charityLogo": "/images/FONDATION-ENFANCE_logo.png",
+    "charityLogo": "/images/fondation-enfance_logo.png",
     "charityName": "Fondation pour l'Enfance",
     "missionName": "Fundraising Volunteer",
     "missionIntro": "Help raise urgently needed funds for the fight against child abuse and share the message about the lifesaving work the Fondation pour l'enfance provides...",
@@ -72,7 +72,7 @@
     "category": "Children"
   },
   {
-    "charityLogo": "/images/BAAM_logo.jpg",
+    "charityLogo": "/images/baam_logo.jpg",
     "charityName": "BAAM",
     "missionName": "Teacher Assistant Volunteer",
     "missionIntro": "We're currently looking for a motivated and passionate french speaking volunteer to assist our language teacher during...",
@@ -86,7 +86,7 @@
     "category": "Refugees"
   },
   {
-    "charityLogo": "/images/Amnesty_International_logo.png",
+    "charityLogo": "/images/amnesty_international_logo.png",
     "charityName": "Amnesty International",
     "missionName": "Human Rights Defenders",
     "missionIntro": "A volunteer vacancy for the Europe Human Rights Defenders team is available at our Paris Regional Office...",
@@ -100,7 +100,7 @@
     "category": "Human Rights"
   },
   {
-    "charityLogo": "/images/Greenpeace_logo.svg.png",
+    "charityLogo": "/images/greenpeace_logo.png",
     "charityName": "Greenpeace",
     "missionName": "Volunteer in the office",
     "missionIntro": "Greenpeace France has various departments in need for help from volunteers: Marketing, Supporter Services, Campaigns, Actions, Policy & Solutions, Media, Web Team, Publications, Reception and Information Systems...",
